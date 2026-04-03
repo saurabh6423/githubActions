@@ -1,0 +1,7 @@
+name: First Workflow
+on: workflow_dispatch
+
+jobs:
+  JobToCheckout:
+    name: Checkout
+    runs-on: ubuntu-latest
