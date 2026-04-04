@@ -6,6 +6,9 @@ jobs:
     name: First Job
     runs-on: ubuntu-latest
     steps:
-      - name: Print a text
-        run: echo Saurabh
+      - name: Checkout Source Code
+        uses: actions/checkout@v6
+
+      - name: Build Stage
+        run: mvn clean compile
         
