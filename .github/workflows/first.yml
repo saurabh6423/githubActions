@@ -3,6 +3,7 @@ on: workflow_dispatch
 
 jobs:
   First-Job:
+    name: First Job
     runs-on: ubuntu-latest
     steps:
       - name: Print a text
