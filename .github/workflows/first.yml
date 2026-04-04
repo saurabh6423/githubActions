@@ -2,9 +2,9 @@ name: First Workflow
 on: workflow_dispatch
 
 jobs:
-  name: First Job
-  runs-on: ubuntu-latest
-  steps:
-    - name: Print a text
-      run: echo Saurabh
+  First-Job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print a text
+        run: echo Saurabh
         
